@@ -1,0 +1,76 @@
+.name
+{
+    display: flex;
+    font-size: 20px;
+    color: whitesmoke;
+    justify-content: center;
+    background-color:rgb(40, 40, 94);
+
+}
+.demographics
+{
+    /*display: flex;
+    margin-right: 80%;
+    font-size: 18px;
+    display: grid;*/
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    /*align-content: space-evenly;
+    grid-template-columns: auto;
+    gap: 10px;*/
+    background-color: #2196F3;
+    padding: 0px;      
+    flex: .5;
+
+}
+.summary
+{
+ /*margin-left: 10%;
+ height: 65%;
+ align-content: space-evenly;
+ grid-template-columns: auto;
+ gap: 10px;*/
+    font-size: 18px;
+    /*padding: left 70px;
+    display: grid;*/
+    background-color: gray;
+    flex:2;
+}
+.skills
+{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: .4%;
+}
+.core
+{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: .4%
+}
+
+pre{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: .4%
+}
+
+body{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: .4%;
+    background-color: rgb(245, 243, 231);
+
+}
+
+.together{
+    display: flex;
+    flex-direction: row;
+    
+}
+p {
+    margin-left: .4%;
+    }
+    
